@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<script class="maiqui">
+    function reload() {
+        Array.from(document.head.getElementsByTagName('link')).forEach(i => { if (i.rel == 'stylesheet' && !i.href.includes('?')) i.href += '?z=' + Date.now(); console.log(i.href); })
+    }
+</script>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="keywords" content="" />
+    <meta name="description"
+        content="Somos una iniciativa de expertos con más de 20 años de experiencia que brinda servicios de asesoramiento, trámite y acompañamiento de soluciones de crédito del sector cooperativo." />
+    <meta name="author" content="Cooperativa De Avales y Coberturas - Coopavalco" />
+    <meta name="theme-color" content="#f8d24b">
+    <!-- opengraph -->
+    <meta property="og:url" content="index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="coopavalco.com">
+    <meta property="og:title" content="Cooperativa De Avales y Coberturas - Coopavalco">
+    <meta property="og:description"
+        content="Somos una iniciativa de expertos con más de 20 años de experiencia que brinda servicios de asesoramiento, trámite y acompañamiento de soluciones de crédito del sector cooperativo.">
+    <meta property="og:image" content="og/coopavalco.png">
+    <meta property="og:image:alt" content="Coopavalco">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:locale" content="es">
+    <!-- webapp -->
+    <link href="wa/icon.png" rel="apple-touch-icon" type="image/x-icon">
+    <link href="wa/startup.png" rel="apple-touch-startup-image" type="image/x-icon">
+    <meta name="apple-mobile-web-app-title" content="Coopavalco">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f5d135">
+    <!-- open source scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- open source stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <!-- title -->
+    <title>Coopavalco</title>
+    <!-- custom -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/products.css" rel="stylesheet" />
+    <link href="css/slider.css" rel="stylesheet" />
+    <link href="css/cards.css" rel="stylesheet" />
+    <link href="css/info.css" rel="stylesheet" />
+    <link href="css/allies.css" rel="stylesheet" />
+    <link href="css/zplazh.css" rel="stylesheet" />
+    <link type="image/png" href="og/coopavalco.png" rel="icon" />
+</head>
+
+<body>
+    <div class="body">
+        <!-- Head -->
+        <div><!--class="top-background"-->
+            <header class="header">
+                <div class="menu container">
+                    <a href="index.html" class="logo"><img src="img/coopavalco.main.png" alt="Logo"></a>
+                    <input type="checkbox" id="menu">
+                    <label for="menu"><img src="img/menu.png" alt="Menu Icon" class="menu-icono"></label>
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="elecciones.html">Elecciones</a></li>
+                            <li><a href="asambleas.html">Asambleas</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- index.html -->
+                <div class="slider-wrapper">
+                    <div class="vertical-slider">
+                        <div class="slider-container">
+                            <div class="slide">
+                                <img alt="Compromiso" src="img/artboard/compromiso.png">
+                            </div>
+                            <div class="slide">
+                                <img alt="Juntos" src="img/artboard/juntos.png">
+                            </div>
+                            <div class="slide">
+                                <img alt="Nosotros" src="img/artboard/nosotros.png">
+                            </div>
+                        </div>
+                        <div class="indicators">
+                            <span class="indicator active"></span>
+                            <span class="indicator"></span>
+                            <span class="indicator"></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Tarjetas con imágenes -->
+        <main class="products container">
+            <h2>Nuestros Servicios</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="img/tar-Photoroom.png" alt="Directo" class="card-image">
+                    <h4>Cobro Directo</h4>
+                    <p>Optimiza tus procesos de cobro Directo con nuestras soluciones adaptadas a tus requerimientos.
+                    </p>
+                    <a href="cobroDirecto.html" class="btn-pay">Leer Más</a>
+                </div>
+                <div class="card">
+                    <img src="img/pse.png" alt="Pago por PSE" class="card-image">
+                    <h4>Pago por <i>pse</i></h4>
+                    <p>Realiza tus pagos de manera fácil y segura a través de <i>pse</i>. ¡Haz clic en el enlace para
+                        proceder
+                        con
+                        tu pago!</p>
+                    <a href="https://micrositios.avalpaycenter.com/epicarpio-mc/login" class="btn-pay"
+                        target="_blank">Pagar
+                        Ahora</a>
+                </div>
+                <div class="card">
+                    <img src="img/tar-Photoroom.png" alt="Cobro Jurídico" class="card-image">
+                    <h4>Cobro Jurídico</h4>
+                    <p>Contamos con servicios de cobro jurídico especializados para resolver tus necesidades legales
+                        financieras.</p>
+                    <a href="cobroJuridico.html" class="btn-pay">Leer Más</a>
+                </div>
+            </div>
+            <p>
+                Aquí puedes encontrar una variedad de servicios diseñados para satisfacer tus necesidades financieras.
+            </p>
+        </main>
+        <!--Botón flotante de WhatsApp
+<a href="https://wa.me/XXXXXXXXXX" class="whatsapp" target="_blank">
+<img src="img/whats.png" alt="WhatsApp">
+</a>
+    <main class="products container">
+        <h2>Nuestros Servicios</h2>
+        <p>
+            Aquí puedes encontrar una variedad de servicios diseñados para satisfacer tus necesidades financieras.
+        </p>
+        <div class="product-info">
+            <div class="product">
+                <img src="img/f2.jpeg" alt="Producto 1">
+                <h3>Confianza y Respeto </h3>
+                <p>
+                </p>
+                <a href="SobreNosotros.html" class="btn-1">Más información</a>
+            </div>
+            <div class="product">
+                <img src="img/f3.jpeg" alt="Producto 2">
+                <h3>Inversión Segura</h3>
+                <p>
+                </p>
+                <a href="SobreNosotros.html" class="btn-1">Más información</a>
+            </div>
+            <div class="product">
+                <img src="img/f4.jpeg" alt="Producto 3">
+                <h3>Préstamos Flexibles</h3>
+                <p>
+                </p>
+                <a href="SobreNosotros.html" class="btn-1">Más información</a>
+            </div>
+        </div>
+    </main>
+-->
+        <!--
+    <section class="nosotros">
+        <div class="nosotros-info container">
+            <div class="nosotros-img">
+                <img src="img/medios.png" alt="Imagen de Nosotros">
+            </div>
+            <div class="nosotros-txt">
+                <span></span>
+                <h2>Paga de forma ágil y segura. </h2>
+                <p class="codigo-texto">
+                    <span class="codigo-contenedor">
+                        Código de convenio del recaudo <span class="codigo-rojo">27794</span>
+                    </span>
+                </p>
+                <img src="img/" class="bg-2" alt="">
+            </div>
+        </div>
+    </section>
+-->
+        <section class="info container">
+            <div class="info-1" data-aos="fade-up">
+                <img src="img/time.svg" alt="Icono de Horario">
+                <h3>Horario de Atención</h3>
+                <p>Lunes a Jueves de 7:30 ㏂ a 5:00 ㏘<br>Viernes de 7:30 ㏂ a 4:30 ㏘</p>
+            </div>
+            <div class="info-1" data-aos="fade-up" data-aos-delay="200">
+                <img src="img/gps.svg" alt="Icono de Ubicación">
+                <h3>Nuestra Ubicación</h3>
+                <p>Calle 35 #18-65 Centro Comercial Rosedal torre sur oficina 604</p>
+                <p>Bucaramanga - Santander</p>
+            </div>
+            <div class="info-1" data-aos="fade-up" data-aos-delay="400">
+                <img src="img/phone.svg" alt="Icono de Teléfono">
+                <h3>Nuestro Teléfono</h3>
+                <p>
+                    <a href="tel:018000415858">Tel: 01-8000-415-858</a>
+                    <a href="tel:3009175032">Cel: 300-917-5032 </a>
+                </p>
+            </div>
+        </section>
+        <section class="allies container">
+            <h2>Nuestros Aliados</h2>
+            <p>Estamos orgullosos de colaborar con estas entidades para ofrecerte las mejores soluciones financieras.
+            </p>
+            <div class="allies-logos">
+                <div class="ally">
+                    <img src="img/allies/pse.png" alt="pse">
+                </div>
+                <div class="ally">
+                    <img src="img/allies/puntored.png" alt="puntored">
+                </div>
+                <div class="ally">
+                    <img src="img/allies/datacreditoExperian.png" alt="datacrédito experian">
+                </div>
+                <div class="ally">
+                    <img src="img/allies/sialia.png" alt="Sialia Financiera SAS">
+                </div>
+                <div class="ally">
+                    <img src="img/allies/trascender.png" alt="Trascender Financiero SAS">
+                </div>
+                <div class="ally">
+                    <img src="img/allies/socii.png" alt="socii">
+                </div>
+            </div>
+        </section>
+        <!-- Floating -->
+        <!--         
+        <a href="whatsapp://send?phone=+573006542339" target="_blank" style="margin: 0;">
+            <div class="quick-btn">
+                <i class="fab fa-whatsapp"></i> <span></span>
+            </div>
+        </a>
+        -->
+        <!--
+    <div class="floating-buttons">
+        <div class="main-btn">
+            <i class="fas fa-hand-pointer"></i>
+        </div>
+        <div class="quick-access">
+            <div class="quick-btn">
+                <i class="fas fa-tag"></i> <span></span>
+            </div>
+            <div class="quick-btn">
+                <i class="fas fa-balance-scale"></i> <span></span>
+            </div>
+            <div class="quick-btn">
+                <i class="fab fa-whatsapp"></i> <span></span>
+            </div>
+        </div>
+    </div>
+    -->
+        <!-- Footer -->
+        <footer class="footer container">
+            <div class="footer-links">
+                <div class="link">
+                    <!--
+                <h3></h3>
+                <div class="socials">
+                    <img src="img/s1.svg" alt="Social 1">
+                    <img src="img/s2.svg" alt="Social 2">
+                    <img src="img/s3.svg" alt="Social 3">
+                    <img src="img/s4.svg" alt="Social 4">
+                </div>
+                -->
+                </div>
+                <div class="link">
+                    <h3>Enlaces Útiles</h3>
+                    <ul>
+                        <li><a href="cobroDirecto.html">Cobro Directo</a></li>
+                        <li><a href="https://micrositios.avalpaycenter.com/epicarpio-mc/login" target="_blank">Pago por
+                                <i>pse</i></a></li>
+                        <li><a href="cobroJuridico.html">Cobro Jurídico</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h3>Contáctanos</h3>
+                    <ul>
+                        <li><a href="mailto:servicio@coopavalco.com">servicio@coopavalco.com</a></li>
+                        <li><a href="tel:018000415858">Tel: 01-8000-415-858</a></li>
+                        <li><a href="tel:3009175032">Cel: 300-917-5032 </a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- plash -- >
+    <div id="splash" style="top: 0px">
+        <div id="verbum" class="verbum">
+            <img src="img/splash.jpg">
+        </div>
+    </div>
+    < !-- /splash -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"></script>
+    <!-- script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script -->
+    <script src="js/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var slider = tns({
+                container: '.slider-container',
+                items: 1,
+                axis: 'vertical',
+                controlsContainer: '.vertical-slider',
+                nav: false,
+                autoplay: true,
+                autoplayButtonOutput: false,
+                autoplayHoverPause: true,
+                autoplayTimeout: 2500 // Ajusta el tiempo en milisegundos según tu preferencia
+            });
+            // Obtener los indicadores
+            var indicators = document.querySelectorAll('.indicator');
+            // Agregar evento click a cada indicador
+            indicators.forEach(function (indicator) {
+                indicator.addEventListener('click', function () {
+                    // Obtener el índice del indicador clickeado
+                    var slideIndex = parseInt(indicator.getAttribute('data-slide-index'));
+                    // Mostrar el slide correspondiente
+                    slider.goTo(slideIndex);
+                    // Actualizar clase activa en los indicadores
+                    indicators.forEach(function (ind) {
+                        ind.classList.remove('active');
+                    });
+                    indicator.classList.add('active');
+                });
+            });
+            // Actualizar indicadores al cambiar de slide
+            slider.events.on('indexChanged', function (info) {
+                // Obtener el índice del slide activo
+                var activeIndex = info.index;
+                // Actualizar clase activa en los indicadores
+                indicators.forEach(function (ind, index) {
+                    if (index === activeIndex) {
+                        ind.classList.add('active');
+                    } else {
+                        ind.classList.remove('active');
+                    }
+                });
+            });
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script><!--
+    <script>
+        // Botones actualizar
+        document.querySelector('.main-btn').addEventListener('click', function () {
+            document.querySelector('.floating-buttons').classList.toggle('show-buttons');
+        });
+    </script>
+-->
+</body>
+<script class="maiqui">
+    // document.body.querySelectorAll('.body,#splash').forEach(x => { x.classList.add('splash'); if (x.id == 'splash') x.addEventListener('click', function (e) { document.body.querySelectorAll('.body,#splash').forEach(x => x.classList.remove('splash')) }) });
+    reload();
+</script>
+
+</html>
